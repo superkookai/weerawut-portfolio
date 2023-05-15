@@ -13,7 +13,7 @@ import mysql from '../assets/mysql.png';
 import firebase from '../assets/firebase.png';
 import github from '../assets/github.png';
 
-import './Skill.css';
+import styles from './Skill.module.css';
 
 const skills = [
     {title: 'HTML5', image: html5},
@@ -40,7 +40,7 @@ function Skill(){
             {
                 skills.map(skill => {
                     return (
-                        <div className="card m-2 backgroundSkill" style={{width:"15%"}} key={skill.title}>
+                        <div className={`card m-2 ${styles.backgroundSkill}`} style={{width:"15%"}} key={skill.title}>
                             <img src={skill.image} className="card-img-top" alt={skill.title} style={{height:"75%"}}/>
                             <div className="card-body">
                                 <h5 class="card-title">{skill.title}</h5>
