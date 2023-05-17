@@ -40,7 +40,7 @@ const experiences = [
 function Experience(){
     return (
         <div className="container mt-5 text-center" id="experiences">
-        <h1>Work Experience</h1>
+        <h1 className='border-bottom border-white pb-3'>Work Experience</h1>
         <table className="table table-bordered table-hover mt-4">
             <thead className="table-primary">
                 <tr>

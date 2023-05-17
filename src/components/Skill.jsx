@@ -32,10 +32,11 @@ const skills = [
     {title: 'GitHub', image: github},
 ]
 
+
 function Skill(){
     return (
         <>
-            <h1 className='text-center mt-5' id="skills">Skills</h1>
+            <h1 className='text-center mt-5 border-bottom border-white pb-3' id="skills">Skills</h1>
             <div className="container mt-3 text-center d-flex justify-content-center flex-wrap">
             {
                 skills.map(skill => {
