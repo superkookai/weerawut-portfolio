@@ -44,7 +44,7 @@ function Skill(){
                         <div className={`card m-2 ${styles.backgroundSkill}`} style={{width:"15%"}} key={skill.title}>
                             <img src={skill.image} className="card-img-top" alt={skill.title} style={{height:"75%"}}/>
                             <div className="card-body">
-                                <h5 class="card-title">{skill.title}</h5>
+                                <h5 className="card-title">{skill.title}</h5>
                             </div>
                         </div>
                     );
