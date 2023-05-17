@@ -5,19 +5,19 @@ function NavBar(){
         <header className="d-flex justify-content-center py-3 backgroundClass rounded-3">
           <ul className="nav nav-pills">
             <li className="nav-item">
-              <a href="#" className="nav-link text-dark">Profile</a>
+              <a href="#profile" className="nav-link text-dark">Profile</a>
             </li>
             <li className="nav-item">
-                <a href="#" className="nav-link text-dark">Education</a>
+                <a href="#education" className="nav-link text-dark">Education</a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link text-dark">Skills</a>
+              <a href="#skills" className="nav-link text-dark">Skills</a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link text-dark">Projects</a>
+              <a href="#projects" className="nav-link text-dark">Projects</a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link text-dark">Work Experiences</a>
+              <a href="#experiences" className="nav-link text-dark">Work Experiences</a>
             </li>
           </ul>
       </header>

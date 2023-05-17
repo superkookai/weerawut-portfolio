@@ -21,7 +21,7 @@ const educations = [
 
 function Education(){
     return (
-        <div className="container mt-5 text-center">
+        <div className="container mt-5 text-center" id="education">
         <h1>Education</h1>
         <table className="table table-bordered table-hover mt-4">
             <thead className="table-primary">

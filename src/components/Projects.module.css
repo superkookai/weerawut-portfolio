@@ -1,0 +1,15 @@
+.carouselLayout{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.projectImage{
+    box-shadow: 2px 2px 5px lightgray;
+    border-radius: 10px;
+}
+
+.projectContent{
+    background-color: #FCFFB2;
+    box-shadow: 2px 2px 5px lightgray;
+    border-radius: 10px;
+}

@@ -39,7 +39,7 @@ const experiences = [
 
 function Experience(){
     return (
-        <div className="container mt-5 text-center">
+        <div className="container mt-5 text-center" id="experiences">
         <h1>Work Experience</h1>
         <table className="table table-bordered table-hover mt-4">
             <thead className="table-primary">

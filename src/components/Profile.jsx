@@ -3,7 +3,7 @@ import './Profile.css';
 
 function Profile(){
     return (
-        <div className='text-center'>
+        <div className='text-center' id="profile">
             <img src={kai} alt="Unable to load profile" className='my-4 profile-img'/>
             <div className='backgroundContent p-4 rounded-3'>
                 <h1>Mr. Weerawut Chaiyasomboon</h1>
