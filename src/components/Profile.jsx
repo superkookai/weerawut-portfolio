@@ -12,7 +12,7 @@ function Profile(){
                 <div className='backgroundContact p-4'>
                     <h5>Contact</h5>
                     Email: <a href='mailto:weerawut@live.com'>weerawut@live.com</a><br/>
-                    GitHub: <a href='https://github.com/superkookai'>https://github.com/superkookai</a>
+                    GitHub: <a href='https://github.com/superkookai' target="_blank">https://github.com/superkookai</a>
                 </div>
             </div>
         </div>
