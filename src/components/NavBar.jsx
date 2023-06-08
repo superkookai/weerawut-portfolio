@@ -2,7 +2,7 @@ import './NavBar.css';
 
 function NavBar(){
     return (
-        <header className="d-flex justify-content-center py-3 backgroundClass rounded-3">
+        <header className="backgroundClass d-flex justify-content-center py-3 rounded-3">
           <ul className="nav nav-pills">
             <li className="nav-item">
               <a href="#profile" className="nav-link text-dark">Profile</a>
